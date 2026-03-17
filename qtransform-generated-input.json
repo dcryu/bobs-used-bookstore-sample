@@ -1,1 +1,52 @@
-{"Settings": {"EnableRazorViews": false, "ExcludePortNetStandard": false, "EnableDbMod": true}, "projects": [], "DatabaseSettings": {"ConnecterId": "1eb08047-a72e-4e41-abf6-b8720551d66c", "Databases": [{"Source": {"DatabaseName": "BobsUsedBookStore", "DatabaseVersion": 2019}, "Target": {"DatabaseName": "postgres", "DatabaseVersion": 13}, "Tools": [{"Name": "DMS", "Properties": {"DmsArn": "arn:aws:dms:us-east-1:581504703557:migration-project:V5MNXQ2IH5F4LKDAKXDKHWYONM"}}]}]}}
+{
+  "Settings": {
+    "EnableRazorViews": false,
+    "ExcludePortNetStandard": false,
+    "EnableDbMod": true
+  },
+  "DatabaseSettings": {
+    "ConnecterId": "c5edafc3-8182-433f-a8c0-a4594202f330",
+    "Databases": [
+      {
+        "Source": {
+          "DatabaseName": "BobsUsedBookStore",
+          "DatabaseVersion": 2019
+        },
+        "Target": {
+          "DatabaseName": "postgres",
+          "DatabaseVersion": 13
+        },
+        "Tools": [
+          {
+            "Name": "DMS",
+            "Properties": {
+              "DmsArn": "arn:aws:dms:us-east-1:474984461222:migration-project:UZE5KLU23VBX3CQ553KHYOLODQ"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "projects": [
+    {
+      "projectFilePath": "app/Bookstore.Domain.Tests/Bookstore.Domain.Tests.csproj",
+      "dependencies": []
+    },
+    {
+      "projectFilePath": "app/Bookstore.Cdk/Bookstore.Cdk.csproj",
+      "dependencies": []
+    },
+    {
+      "projectFilePath": "app/Bookstore.Data/Bookstore.Data.csproj",
+      "dependencies": []
+    },
+    {
+      "projectFilePath": "app/Bookstore.Web/Bookstore.Web.csproj",
+      "dependencies": []
+    },
+    {
+      "projectFilePath": "app/Bookstore.Domain/Bookstore.Domain.csproj",
+      "dependencies": []
+    }
+  ]
+}
